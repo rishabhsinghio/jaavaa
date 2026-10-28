@@ -9,4 +9,8 @@ class Flight {
     String desg;
     int capa;
     int tprice;
+
+    public void isSeatAvailable() {
+        System.out.println("Available Seats: " + capa);
+    }
 }
